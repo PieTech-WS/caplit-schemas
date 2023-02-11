@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "appid": {
+      "type": "number"
+    },
+    "appname": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "ver": {
+      "type": "number"
+    },
+    "version": {
+      "type": "string"
+    },
+    "requirements": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "pip": {
+          "type": "object",
+          "required": [],
+          "properties": {}
+        },
+        "runtime": {
+          "type": "object",
+          "required": [],
+          "properties": {}
+          }
+        },
+        "platform": {
+          "type": "object",
+          "required": [],
+          "properties": {}
+          }
+        }
+      }
+    },
+    "Loader": {
+      "type": "string"
+    }
+  }
+}

@@ -2,51 +2,60 @@
   "type": "object",
   "required": [],
   "properties": {
+    "name": {
+      "type": "object",
+      "required": [],
+      "properties": {}
+      }
+    },
     "appid": {
       "type": "number"
     },
-    "appname": {
+    "package": {
       "type": "string"
     },
-    "name": {
+    "type": {
+      "type": "string"
+    },
+    "author": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string"
+    },
+    "versioncode": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "defaultLanguage": {
       "type": "string"
     },
     "description": {
       "type": "string"
     },
-    "author": {
-      "type": "string"
-    },
-    "ver": {
+    "api_level": {
       "type": "number"
     },
-    "version": {
-      "type": "string"
-    },
-    "requirements": {
+    "dependencies": {
       "type": "object",
       "required": [],
-      "properties": {
-        "pip": {
-          "type": "object",
-          "required": [],
-          "properties": {}
-        },
-        "runtime": {
-          "type": "object",
-          "required": [],
-          "properties": {}
-          }
-        },
-        "platform": {
-          "type": "object",
-          "required": [],
-          "properties": {}
-          }
-        }
+      "properties": {}
+    },
+    "scripts": {
+      "type": "array",
+      "items": {
+        "type": "string"
       }
     },
-    "Loader": {
+    "licence": {
       "type": "string"
     }
   }
